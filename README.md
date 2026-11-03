@@ -79,25 +79,25 @@ app/src/main/
 ![Splash Screen](splash.png)
 
 ### Sign Up
-![Sign Up](screenshots/signup.png)
+![Sign Up](signup.png)
 
 ### Login
-![Login](screenshots/login.png)
+![Login](login.png)
 
 ### Register
-![Register](screenshots/register.png)
+![Register](register.png)
 
 ### Home
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### Profile
-![Profile](screenshots/profile.png)
+![Profile](profile.png)
 
 ### Alamat Pengiriman
-![Alamat](screenshots/alamat.png)
+![Alamat](alamat.png)
 
 ### Konfirmasi Pesanan
-![Konfirmasi](screenshots/konfirmasi.png)
+![Konfirmasi](konfirmasi.png)
 
 ### Riwayat Pesanan
-![History](screenshots/history.png)
+![History](history.png)
