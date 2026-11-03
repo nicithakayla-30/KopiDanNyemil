@@ -76,7 +76,7 @@ app/src/main/
 ## Screenshoot Tampilan Halaman
 
 ### Splash Screen
-![Splash Screen](screenshots/splash.png)
+![Splash Screen](splash.png)
 
 ### Sign Up
 ![Sign Up](screenshots/signup.png)
