@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical">
+
+    <!-- Header / Toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvGreetingProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo, Pengguna"
+            android:textColor="@color/cream"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Profile Saya"
+            android:textColor="@color/orange"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <!-- Form Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxStrokeColor="@color/brown">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pengguna"
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/brown"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#D32F2F"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+    <!-- Bottom Navigation Bar (4 items) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnNavHome"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textSize="12sp"
+            android:textColor="@color/brown_dark"
+            app:strokeColor="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnNavHistory"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="History"
+            android:textSize="12sp"
+            android:textColor="@color/brown_dark"
+            app:strokeColor="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnNavOrder"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Order"
+            android:textSize="12sp"
+            android:textColor="@color/brown_dark"
+            app:strokeColor="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnNavProfile"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Profile"
+            android:textSize="12sp"
+            android:textColor="@color/brown"
+            app:strokeColor="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>
