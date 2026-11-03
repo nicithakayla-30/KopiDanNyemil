@@ -73,9 +73,31 @@ app/src/main/
 4. Hubungkan perangkat Android fisik atau jalankan **Android Emulator** (AVD).
 5. Klik tombol **Run** (`Shift + F10`) untuk mengompilasi dan menjalankan aplikasi.
 
-## 🎨 Palet Warna Desain
-- **Cokelat Tua**: `#4E342E`
-- **Cokelat**: `#795548`
-- **Krem**: `#FFF8F0`
-- **Orange**: `#E8A15A`
-- **Putih**: `#FFFFFF`
+## Screenshoot Tampilan Halaman
+
+### Splash Screen
+![Splash Screen](screenshots/splash.png)
+
+### Sign Up
+![Sign Up](screenshots/signup.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### Register
+![Register](screenshots/register.png)
+
+### Home
+![Home](screenshots/home.png)
+
+### Profile
+![Profile](screenshots/profile.png)
+
+### Alamat Pengiriman
+![Alamat](screenshots/alamat.png)
+
+### Konfirmasi Pesanan
+![Konfirmasi](screenshots/konfirmasi.png)
+
+### Riwayat Pesanan
+![History](screenshots/history.png)
