@@ -99,5 +99,8 @@ app/src/main/
 ### Konfirmasi Pesanan
 ![Konfirmasi](konfirmasi.png)
 
+### Detail Pesanan
+![Detail Pesanan](/detail-pesanan.png)
+
 ### Riwayat Pesanan
 ![History](history.png)
